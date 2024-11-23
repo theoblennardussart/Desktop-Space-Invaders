@@ -8,7 +8,7 @@ pygame.init()
 ev = pygame.event.poll()
 
 os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (100,0)
-img = cv2.imread("Images/Player.png", cv2.IMREAD_COLOR)
+img = cv2.imread("venv/include/images/Player.png", cv2.IMREAD_COLOR)
 cv2.imshow("I2", img)
 cv2.moveWindow("I2", 50, 650)
 
